@@ -1,0 +1,46 @@
+<! Doctype html>
+<html>
+<head>
+<title>Morgage calculation </title>
+<style>
+body{background-color:#ccc ;text-align:center;}
+div {position:center;}
+table,th,td {align:center;text-align:center;border:2px solid brown; width:500px}
+#bold {font-weight:bold;}
+
+</style>
+</head>
+<body>
+<h1> Morgage Calculator </h1>
+
+<div>
+<table Colspan="2" align="center">
+<tr>
+<td id="bold">Total Amount </td>
+<td><input type="textbox" id="amount"></td>
+</tr>
+<tr>
+<td id="bold"> Down Payment</td>
+<td> <input type="textbox" id="down">
+</td>
+</tr>
+ <tr>
+   <td id="bold">Intrest Rate </td>
+   <td><input type="textbox" id="rate"></td>
+ </tr>
+ <tr>
+  <td id="bold">Total Time</td>
+  <td><input type="textbox" id="time"></td>
+ </tr>
+ </table>
+ </div>
+<p><button id="buttons">CALCULATE</button></p>
+
+<hr/>
+<h3> Your monthaly installment 
+<span type="text" id ="spanid" ><b>$xyz</b></span></h3>
+<hr/>
+<script src= morgage.js></script>
+</body>
+
+</html>
